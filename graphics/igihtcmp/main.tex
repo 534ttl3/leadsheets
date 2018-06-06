@@ -1,0 +1,34 @@
+\documentclass{article} % say
+\usepackage{tikz,pgf}
+\usepackage{leadsheets}
+\newcommand{\cc}[4]{
+\ensuremath{
+\stackrel{\strut
+\stackrel{\strut
+\stackrel{\strut
+\stackrel{\strut
+}{\strut
+\hbox{{\scriptsize\textbf{#4}}}
+}
+}{\strut
+\hbox{\writechord{#3}}
+}
+}{\strut
+\hbox{\scriptsize{#2}}
+}
+}{\strut\textrm{#1}}
+}%
+}
+
+\setchords{
+    major-seven = $\Delta$ , 
+    major-nine  = $\Delta$\textsuperscript{9}
+}
+
+\pagenumbering{gobble}
+\begin{document} \noindent
+\cc{...}{}{}{} \cc{}{}{Abmaj7}{} \cc{}{}{Db-7}{II} \cc{}{}{}{V} \cc{}{}{}{I} \cc{}{}{Ab-7}{} \cc{}{}{Db7}{} \cc{}{}{Ab\o}{} \cc{...}{}{}{}\\
+I \cc{}{}{Abmaj7}{} Guess I'll \cc{have to}{1-13}{Eb(13 b9)}{} change my \cc{plan}{1-6}{Ab6}{} \cc{}{1-3}{Eb6}{} \\
+I didn't \cc{realize}{}{Abmaj7}{} there'd \cc{be}{}{F-7}{} ... \\
+I \cc{overlooked}{}{F-7}{} that \cc{point}{}{Eb(\sharp5)}{} \cc{}{}{Eo}{} \cc{}{}{Abmaj7}{}completely \cc{}{}{F-7}{}
+\end{document}

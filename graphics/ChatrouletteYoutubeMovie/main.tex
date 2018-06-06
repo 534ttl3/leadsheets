@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage[top=2cm, bottom=2cm, right=.3cm,left=.3cm]{geometry}
+\usepackage{leadsheets}
+\usepackage{multicol}
+\usepackage{cmbright}
+\usepackage{ragged2e}
+\renewcommand{\baselinestretch}{3.5}\normalsize
+\pagenumbering{gobble}
+\usepackage{color}
+
+\usepackage{stackengine}
+\newcommand{\ana}[2]{\stackon{#1}{$\textbf{#2}$}}
+
+\begin{document}
+\setleadsheets{
+  song-format = \sffamily
+}
+\begin{song}{music={}, lyrics={traditional}, tags={srv,blues}, key=Ab}
+\RaggedRight
+\begin{verse}
+    \quad^{F7} \quad^{B\flat7} \quad^{G-7} \quad^{Ao} \quad^{F7} \\
+    \quad^{F7} \quad^{G-7/B\flat} \quad^{Bo} \quad^{B\flat-7} \quad^{Eo} \\
+    \quad^{G$\Delta$} \quad^{E-7} \quad^{A7} \quad^{B-7} \quad^{E-7} \\
+    \quad^{A\flat-7} \quad^{D\flat 7} \quad^{G\flat} \quad^{Ao} \textit{da capo al fine}
+\end{verse}
+\begin{verse}
+    \quad^{Ab$\Delta$} \quad^{Ao} \quad^{E\flat add9} \quad^{Bo} \quad^{C-7} \\
+    \quad^{F7} \quad^{B\flat 7} \quad^{E\flat} \quad^{E\flat-} \quad^{F-7} \quad^{B\flat 7} \\
+    \quad^{E\flat o} \quad^{F7} \quad^{B7} \quad^{E\flat $\Delta$} 
+\end{verse}
+\end{song} 
+
+\end{document}

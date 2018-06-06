@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{leadsheets}
+\usepackage{cmbright}
+\usepackage{ragged2e}
+\renewcommand{\baselinestretch}{3.5}\normalsize
+\pagenumbering{gobble}
+\usepackage{color}
+
+\setlength\columnsep{0pt} % This is the default columnsep for all pages
+
+\usepackage{stackengine}
+\newcommand{\ana}[2]{\stackon{#1}{$\textbf{#2}$}}
+
+\begin{document}
+\setleadsheets{
+  song-format = \sffamily
+}
+\begin{song}{title={%$ \quad $ I Guess I'll have to change my plan
+}, music={}, lyrics={traditional}, tags={srv,blues}}
+\RaggedRight
+\begin{verse}
+    \cc{}{}{Amaj7}{} \cc{}{1-13}{Eb13b9}{} \cc{}{1-6}{Ab6}{} \cc{}{1-3}{Eb6}{} \cc{}{}{Abmaj7}{} \cc{}{}{F-7}{} ... \\
+    \cc{}{}{F-7}{} \cc{}{}{Eb(#5)}{} \cc{}{}{Eo}{} \cc{}{}{Abmaj7}{} \cc{}{}{F-7}{}
+\end{verse}
+\end{song} 
+
+\end{document}

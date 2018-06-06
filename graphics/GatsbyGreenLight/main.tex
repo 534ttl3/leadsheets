@@ -1,0 +1,27 @@
+\documentclass{article} % say
+\usepackage{tikz,pgf}
+\usepackage{leadsheets}
+\newcommand{\cc}[4]{
+\ensuremath{
+\stackrel{\strut
+\stackrel{\strut
+\stackrel{\strut
+\stackrel{\strut
+}{\strut
+\hbox{{\scriptsize\textbf{#4}}}
+}
+}{\strut
+\hbox{\writechord{#3}}
+}
+}{\strut
+\hbox{\scriptsize{#2}}
+}
+}{\strut\textrm{#1}}
+}%
+}
+
+\pagenumbering{gobble}
+\begin{document}
+\noindent {\scriptsize\textbf{(I=G$\sharp$ major: VI-III-IV ... ?)}} \\
+\cc{}{}{F-7}{} \cc{}{}{C-7}{} \cc{}{}{C\sharp maj7}{} \cc{}{}{D\sharp sus4}{}
+\end{document}

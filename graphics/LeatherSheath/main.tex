@@ -1,0 +1,28 @@
+\documentclass{article} % say
+\usepackage{tikz,pgf}
+\usepackage{leadsheets}
+\newcommand{\cc}[4]{
+\ensuremath{
+\stackrel{\strut
+\stackrel{\strut
+\stackrel{\strut
+\stackrel{\strut
+}{\strut
+\hbox{{\scriptsize\textbf{#4}}}
+}
+}{\strut
+\hbox{\writechord{#3}}
+}
+}{\strut
+\hbox{\scriptsize{#2}}
+}
+}{\strut\textrm{#1}}
+}%
+}
+
+\pagenumbering{gobble}
+\begin{document}
+\noindent \cc{}{}{A-7(9)}{} \cc{}{}{Bb-7}{} \cc{}{}{Cmaj7}{} \\
+\cc{}{1-3-7}{D9(\sharp 5)}{} \cc{}{}{Gmaj7}{} \cc{}{}{E-7}{} \cc{}{}{E7}{}\\
+\cc{}{}{A-7(9)}{} \cc{}{1-5-3}{F7(\sharp 9)}{} \cc{}{}{Ab7(\sharp4 \sharp5)}{}
+\end{document}
